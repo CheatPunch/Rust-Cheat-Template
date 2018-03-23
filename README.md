@@ -14,7 +14,7 @@ Go to Rust/RustClient_Data/Managed and disassemble Assembly-CSharp.dll, it conta
 
 			if (!SingletonComponent<CameraMan>.Instance)
 			{
-				GameManager.client.CreatePrefab("assets/bundled/prefabs/system/debug/debug_camera.prefab", true);
+				GameManager.client.CreatePrefab("assets/bundled/prefabs/system/debug/debug_camera.prefab"); // Second argument isn't necessary so I removed it (It's already set to true).
 			}
 			else
 			{

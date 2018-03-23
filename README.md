@@ -20,3 +20,10 @@ Go to Rust/RustClient_Data/Managed and disassemble Assembly-CSharp.dll, it conta
 			{
 				SingletonComponent<CameraMan>.Instance.enabled = !SingletonComponent<CameraMan>.Instance.enabled;
 			}
+
+# Help
+Don't forget to include Rust's references, (Assembly-CSharp.dll, everything in Managed folder besides mscorlib and System dlls) or it will error on compiling.
+
+# Useful information
+
+https://docs.unity3d.com/ScriptReference/

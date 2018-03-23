@@ -1,5 +1,5 @@
 # Rust-Cheat-Template
-Start developing your own cheat with this template
+Start developing your own cheat
 
 # Getting started
 To add more features to your cheat download a .NET decompiler (dnSpy, ILSpy, etc).

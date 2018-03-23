@@ -10,7 +10,7 @@ Go to Rust/RustClient_Data/Managed and disassemble Assembly-CSharp.dll, it conta
 2. Navigate to ConVar namespace
 3. Select 'Debugging' class
 4. Search for the function 'debugcamera'
-5. Copy-paste the code that toggles/creates the debugcamera prefab in a toggle in your code.
+5. Copy-paste the code that toggles/creates the debugcamera prefab in a toggle in your code
 
 			if (!SingletonComponent<CameraMan>.Instance)
 			{

@@ -2,7 +2,7 @@
 Start developing your own cheat with this template
 
 # Getting started
-To add more features to your first cheat download a .NET decompiler (dnSpy, ILSpy, etc).
+To add more features to your cheat download a .NET decompiler (dnSpy, ILSpy, etc).
 Go to Rust/RustClient_Data/Managed and disassemble Assembly-CSharp.dll, it contains most of the game code.
 
 # Example: DebugCamera / Freecam
